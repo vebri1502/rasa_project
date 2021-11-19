@@ -6,16 +6,11 @@ nlu:
     - hey
     - hello
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hello yang di sana
+    - selamat pagi
+    - selamat sore
+    - hola
+    - met siang
 
 - intent: goodbye
   examples: |
@@ -30,6 +25,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - dadah
 
 - intent: affirm
   examples: |
