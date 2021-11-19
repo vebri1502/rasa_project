@@ -62,6 +62,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - lagi senang nih
 
 - intent: mood_unhappy
   examples: |
@@ -79,6 +80,7 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - lagi sedih min
 
 - intent: bot_challenge
   examples: |
@@ -86,3 +88,5 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - siapa anda?
+    - dengan siapa saya berbicara?
