@@ -90,3 +90,17 @@ nlu:
     - am I talking to a human?
     - siapa anda?
     - dengan siapa saya berbicara?
+
+- intent: ask_initial
+  examples: |
+    - mau nanya boleh min?
+    - mau tanya dong
+    - pengen tanya
+    - min, mo nanya
+
+- intent: ask_insignia_product
+  examples: |
+    - mau tanya tentang product insignia
+    - produk insignia apa aja ya min?
+    - boleh tau product insignia
+    - produk insignia

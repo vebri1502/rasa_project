@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_initial
+  - ask_insignia_product
 
 responses:
   utter_greet:
@@ -24,13 +26,19 @@ responses:
   - text: "Mantap, ke pasar beli ikan cucut, mari lanjut"
 
   utter_goodbye:
-  - text: "Bhabaayy"
+  - text: "Baik, terima kasih telah menghubungi mimin. Jangan lupa makan, ya. Bhabaayy"
 
   utter_iamabot:
   - text: "VEBRI GANTENG BANGET"
 
   utter_please_rephrase:
   - text: "Gomen, bisa diulangi lagi gak?"
+
+  utter_initial_answer:
+  - text: "Boleh dong, mau tanya apaan kamu?"
+
+  utter_insignia_product:
+  - text: "Jadi, insignia ada 3 produk nih, ada Markethac, Rewards, dan Dialox. Masing-masing dari itu semua memiliki impact yang sangat berguna bagi perusahaan kamu, lho. :)"
 
 session_config:
   session_expiration_time: 60

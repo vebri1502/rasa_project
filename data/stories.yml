@@ -28,3 +28,15 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: asking Insignia products
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_initial
+  - action: utter_initial_answer
+  - intent: ask_insignia_product
+  - action: utter_insignia_product
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
