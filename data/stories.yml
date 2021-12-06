@@ -40,3 +40,87 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
+
+- story: asking aquarius predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_aquarius
+  - action: utter_aquarius_predict
+
+- story: asking pisces predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_pisces
+  - action: utter_pisces_predict
+
+- story: asking aries predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_aries
+  - action: utter_aries_predict
+
+- story: asking taurus predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_taurus
+  - action: utter_taurus_predict
+
+- story: asking gemini predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_gemini
+  - action: utter_gemini_predict
+
+- story: asking cancer predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_cancer
+  - action: utter_cancer_predict
+
+- story: asking leo predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_leo
+  - action: utter_leo_predict
+
+- story: asking virgo predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_virgo
+  - action: utter_virgo_predict
+
+- story: asking libra predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_libra
+  - action: utter_libra_predict
+
+- story: asking scorpio predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_scorpio
+  - action: utter_scorpio_predict
+
+- story: asking sagitarius predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_sagitarius
+  - action: utter_sagitarius_predict
+
+- story: asking capricorn predict
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_predict_capricorn
+  - action: utter_capricorn_predict

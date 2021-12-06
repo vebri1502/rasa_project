@@ -104,3 +104,75 @@ nlu:
     - produk insignia apa aja ya min?
     - boleh tau product insignia
     - produk insignia
+
+- intent: ask_predict_aquarius
+  examples: |
+    - ramalan zodiak aquarius dong
+    - bulan ini zodiak aquarius ada apa?
+    - aquarius bulan ini
+
+- intent: ask_predict_pisces
+  examples: |
+    - ramalan zodiak pisces dong
+    - bulan ini zodiak pisces ada apa?
+    - pisces bulan ini
+
+- intent: ask_predict_aries
+  examples: |
+    - ramalan zodiak aries dong
+    - bulan ini zodiak aries ada apa?
+    - aries bulan ini
+
+- intent: ask_predict_taurus
+  examples: |
+    - ramalan zodiak taurus dong
+    - bulan ini zodiak taurus ada apa?
+    - taurus bulan ini
+
+- intent: ask_predict_gemini
+  examples: |
+    - ramalan zodiak gemini dong
+    - bulan ini zodiak gemini ada apa?
+    - gemini bulan ini
+
+- intent: ask_predict_cancer
+  examples: |
+    - ramalan zodiak cancer dong
+    - bulan ini zodiak cancer ada apa?
+    - cancer bulan ini
+
+- intent: ask_predict_leo
+  examples: |
+    - ramalan zodiak leo dong
+    - bulan ini zodiak leo ada apa?
+    - leo bulan ini
+
+- intent: ask_predict_virgo
+  examples: |
+    - ramalan zodiak virgo dong
+    - bulan ini zodiak virgo ada apa?
+    - virgo bulan ini
+
+- intent: ask_predict_libra
+  examples: |
+    - ramalan zodiak libra don
+    - bulan ini zodiak libra ada apa?
+    - libra bulan ini
+
+- intent: ask_predict_scorpio
+  examples: |
+    - ramalan zodiak scorpio dong
+    - bulan ini zodiak scorpio ada apa?
+    - scorpio bulan ini
+
+- intent: ask_predict_sagitarius
+  examples: |
+    - ramalan zodiak sagitarius dong
+    - bulan ini zodiak sagitarius ada apa?
+    - sagitarius bulan ini
+
+- intent: ask_predict_capricorn
+  examples: |
+    - ramalan zodiak capricorn dong
+    - bulan ini zodiak capricorn ada apa?
+    - capricorn bulan ini

@@ -10,6 +10,18 @@ intents:
   - bot_challenge
   - ask_initial
   - ask_insignia_product
+  - ask_predict_aquarius
+  - ask_predict_pisces
+  - ask_predict_aries
+  - ask_predict_taurus
+  - ask_predict_gemini
+  - ask_predict_cancer
+  - ask_predict_leo
+  - ask_predict_virgo
+  - ask_predict_libra
+  - ask_predict_scorpio
+  - ask_predict_sagitarius
+  - ask_predict_capricorn
 
 responses:
   utter_greet:
@@ -39,6 +51,42 @@ responses:
 
   utter_insignia_product:
   - text: "Jadi, insignia ada 3 produk nih, ada Markethac, Rewards, dan Dialox. Masing-masing dari itu semua memiliki impact yang sangat berguna bagi perusahaan kamu, lho. :)"
+
+  utter_aquarius_predict:
+  - text: "Dirimu sering disebut sebagai tanda seorang yang optimis, karena itu dirimu selalu yakin dengan dengan setiap jalan hidup yang diambil. Istirahat yang cukup akan membuatmu terhindar dari beberapa penyakit."
+
+  utter_pisces_predict:
+  - text: "Dirimu adalah pribadi yang handal dalam mengambil keputusan yang baik, hampir setiap keputusan yang diambil tak pernah meleset. Menjaga rutinitas yang teratur akan membantumu memulihkan kesehatan."
+
+  utter_aries_predict:
+  - text: "Dirimu selalu bisa bersikap jujur pada orang lain, sehingga dirimu bisa memberikan kenyamanan bagi orang disekitarmu. Hindarilah mengonsumsi makanan saat mendekati waktu tidur karena bisa mengakibatkan masalah pencernan."
+
+  utter_taurus_predict:
+  - text: "Digambarkan sebagai tanda yang paling sensitif, dirimu selalu peduli pada orang lain. Menerapkan pola diet yang tepat akan menguntungkan kesehatanmu."
+
+  utter_gemini_predict:
+  - text: "Memiliki loyalitas yang tinggi membuatmu selalu memerhatikan dan kebutuhan orang lain disekitarmu. Dirimu akan melakukan yang terbaik untuk menolong orang-orang di dekatmu. Usaha yang diambil dalam hal kesehatan akan meberikan hasil yang diharapkan."
+
+  utter_cancer_predict:
+  - text: "Dirimu biasa menjadi orang yang menawarkan bantuan, sehingga wajar dalam pergaulan dirimu sangat disenangi dan memiliki banyak teman. Untuk kesehatanmu, dirimu akan segera menemukan aktivitas fisik yang cocok dan menyenangkan untuk dilakukan."
+
+  utter_leo_predict:
+  - text: "Dirimu adalah orang yang hangat dan mempesona, dirimu adalah tipe orang yang mudah bergaul dalam lingkungan baru. Dalam kesehatan, dirimu sedang dalam kondisi yang energik dan bugar, karena menerapkan aktivitas fisik yang teratur."
+
+  utter_virgo_predict:
+  - text: "Kepekaanmu pada masalah membuatmu mudah merasakan kondisi yang dialami orang lain. Dalam kesehatan, daripada mengkonsumsi minuman instan, lebih baik menggantinya dengan air putih yang lebih menyehatkan."
+
+  utter_libra_predict:
+  - text: "Banyak orang yang mengagumimu dari caramu menyelesaikan setiap masalah, bahkan banyak yang jatuh cinta karena keunggulanmu itu. Inisiatif di bidang kesehatan akan menjadikan kondisi tubuhmu lebih segar dan enerjik."
+
+  utter_scorpio_predict:
+  - text: "Kepedulian yang tinggi menjadikanmu seorang yang memiliki empati yang bagus. Dirimu juga sangat mengutamakan keluarga, terutama saat mereka sedang dalam masalah. Melanjutkan latihan fisik akan memberikanmu kesehatan yang prima."
+
+  utter_sagitarius_predict:
+  - text: "Dirimu dilambangkan sebagai seorang yang tulus, bahkan dirimu senang membantu orang lain tanpa rasa pamrih. Dalam kesehatan, nasihat seseorang akan memotivasimu mengembalikan gaya hidup yang sehat."
+
+  utter_capricorn_predict:
+  - text: "Hal yang menonjol dalam dirimu adalah sifat yang kuat, dirimu bisa membuat orang disekitarmu merasa aman dan terjaga. Hindari tidur terlalu lama di siang hari, karena bisa menganggu kualitas tidurmu pada malam harinya."
 
 session_config:
   session_expiration_time: 60
