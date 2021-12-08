@@ -10,6 +10,9 @@ intents:
   - bot_challenge
   - ask_initial
   - ask_insignia_product
+  - nlu_test
+
+  ##############################
   - ask_predict_aquarius
   - ask_predict_pisces
   - ask_predict_aries
@@ -23,16 +26,68 @@ intents:
   - ask_predict_sagitarius
   - ask_predict_capricorn
 
+  ###############################
+
+  - ask_predict_love_aquarius
+  - ask_predict_love_pisces
+  - ask_predict_love_aries
+  - ask_predict_love_taurus
+  - ask_predict_love_gemini
+  - ask_predict_love_cancer
+  - ask_predict_love_leo
+  - ask_predict_love_virgo
+  - ask_predict_love_libra
+  - ask_predict_love_scorpio
+  - ask_predict_love_sagitarius
+  - ask_predict_love_capricorn
+
+  ###############################
+
+  - ask_predict_career_aquarius
+  - ask_predict_career_pisces
+  - ask_predict_career_aries
+  - ask_predict_career_taurus
+  - ask_predict_career_gemini
+  - ask_predict_career_cancer
+  - ask_predict_career_leo
+  - ask_predict_career_virgo
+  - ask_predict_career_libra
+  - ask_predict_career_scorpio
+  - ask_predict_career_sagitarius
+  - ask_predict_career_capricorn
+
+  ###############################
+
+  - ask_predict_finance_aquarius
+  - ask_predict_finance_pisces
+  - ask_predict_finance_aries
+  - ask_predict_finance_taurus
+  - ask_predict_finance_gemini
+  - ask_predict_finance_cancer
+  - ask_predict_finance_leo
+  - ask_predict_finance_virgo
+  - ask_predict_finance_libra
+  - ask_predict_finance_scorpio
+  - ask_predict_finance_sagitarius
+  - ask_predict_finance_capricorn
+
+##############################
+  - ask_blood_A_personality
+  - ask_blood_B_personality
+  - ask_blood_AB_personality
+  - ask_blood_O_personality
+
+
 responses:
   utter_greet:
-  - text: "Moshi-moshi, ada yang dapat dibantu?"
+  - text: "Halo, da yang dapat dibantu?"
 
   utter_cheer_up:
   - text: "Ikan hiu makan tomat, bodo amat"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Udah ngerasa kebantu belom?"
+  - text: "Udah ngerasa kebantu belum?"
 
   utter_happy:
   - text: "Mantap, ke pasar beli ikan cucut, mari lanjut"
@@ -41,16 +96,23 @@ responses:
   - text: "Baik, terima kasih telah menghubungi mimin. Jangan lupa makan, ya. Bhabaayy"
 
   utter_iamabot:
-  - text: "VEBRI GANTENG BANGET"
+  - text: "Halo, saya ada Dialox, buatan tim Insignia Indonesia"
 
   utter_please_rephrase:
-  - text: "Gomen, bisa diulangi lagi gak?"
+  - text: "Maaf, bisa diulangi lagi gak?"
+  - text: "Mohon maaf ya karena Claudia masih belajar, jadi claudia belum mengerti maksud kamu yang ini. coba kamu tanya hal lain deh"
+  - text: ":'( Claudia belum mengerti maksud kamu, kamu boleh tanya hal lain kah?"
+  - text: "Gimana gimana? aku belum mengerti maksud kamu yang itu."
 
   utter_initial_answer:
   - text: "Boleh dong, mau tanya apaan kamu?"
 
   utter_insignia_product:
   - text: "Jadi, insignia ada 3 produk nih, ada Markethac, Rewards, dan Dialox. Masing-masing dari itu semua memiliki impact yang sangat berguna bagi perusahaan kamu, lho. :)"
+
+  nlu_test_response:
+  - text: "Mau coba NLU kami?"
+  #################################
 
   utter_aquarius_predict:
   - text: "Dirimu sering disebut sebagai tanda seorang yang optimis, karena itu dirimu selalu yakin dengan dengan setiap jalan hidup yang diambil. Istirahat yang cukup akan membuatmu terhindar dari beberapa penyakit."
@@ -87,6 +149,133 @@ responses:
 
   utter_capricorn_predict:
   - text: "Hal yang menonjol dalam dirimu adalah sifat yang kuat, dirimu bisa membuat orang disekitarmu merasa aman dan terjaga. Hindari tidur terlalu lama di siang hari, karena bisa menganggu kualitas tidurmu pada malam harinya."
+
+  ################################################
+
+  utter_aquarius_love_predict:
+  - text: "Single: Daripada hanya memendam cinta, sebaiknya ungkapkanlah perasaanmu agar ada kepastian. Walau mungkin hasilnya tak seperti yang diinginkan, setidaknya itu membuatmu merasa lega. \nCouple: Banyak cara yang bisa dilakukan untuk menguatkan cinta, termasuk dengan lebih banyak waktu bersama atau melakukan hal-hal yang romantis pada pasangan."
+
+  utter_pisces_love_predict:
+  - text: "Single: Kepercayaan diri yang tinggi dan keagresifan akan membuatmu lebih bersemangat dalam mencari tambatan hati. \nCouple: Gairah yang tinggi dalam hal romantis justru akan membuatmu lebih mudah menguatkam hubunganmu dengan pasangan."
+
+  utter_aries_love_predict:
+  - text: "Single: Terburu-buru menentukan pilihan yang hanya didasari pada kesenangan cenderung akan membawamu pada kegagalan, sebaiknya kenalilah secara menyeluruh seseorang yang akan menjadi pasanganmu. \nCouple: Kehidupan cintamu dengan pasangan akan lebih menyenangkan, bisa membentuk komitmen yang kuat adalah salah satu kuncinya."
+
+  utter_taurus_love_predict:
+  - text: "Single: Kamu tak akan mengalami masalah untuk memulai kisah cinta yang baru selama dirimu bisa berpikir positif dan percaya bahwa kamu bisa lebih baik membawa hubungan dari sebelumnya. \nCouple: Kehidupan cintamu akan menjadi lebih romantis dengan pasangan. Jangan abaikan momen kebersamaan, lupakan sejenak masalah lain saat sedang bersama."
+
+  utter_gemini_love_predict:
+  - text: "Single: Dirimu tak pernah setengah-setengah dalam menjalani hubungan, tetapi untuk mengharapkan hubungan yang penuh komitmen, sepertinya itu akan sulit terjadi dalam waktu yang singkat. \nCouple: Kedekatan emosional dengan pasangan tak hanya akan membawa kebahagiaan, namun juga akan meringankan beban menghadapi kehidupan."
+
+  utter_cancer_love_predict:
+  - text: "Single: Kamu cukup mudah untuk membuka hati pada orang yang mendekatimu, bahkan pada orang yang baru-baru dikenal. Tetapi untuk hubungan yang serius, itu belum saatnya dalam waktu dekat ini. \nCouple: Hal-hal yang belum terjadi dalam hubunganmu sebaiknya jangan terlalu dikhawatirkan, sebab rasa cemas berlebih malah bisa merusak hubunganmu."
+
+  utter_leo_love_predict:
+  - text: "Single: Bahkan jika dirimu tak memiliki hubungan asmara atau kisah cinta untuk diurusi, dirimu bisa tetap bahagia menghabiskan waktu bersama teman-teman atau keluarga. \nRasa kasih sayang yang diberikan pasangan sekali pun membuatmu merasa sangat dihargai, tetapi selalu ada saja ketakutan dalam hatimu yang khawatir bahwa perasaan seperti bisa berakhir kapan saja."
+
+  utter_virgo_love_predict:
+  - text: "Single: Kamu mungkin berkenalan dna berinteraksi dengan banyak orang, tetapi untuk hubungan yang serius sepertinya dirimu belum siap untuk itu. \nCouple: Ada banyak kekacauan yang mungkin terjadi dalam hubunganmu dan itu sulit untuk diselesaikan. Walau begitu, jangan pernah lari dari masalah dan cobalah untuk tetap menyelesaikannya."
+
+  utter_libra_love_predict:
+  - text: "Single: Meskipun ada tanda yang muncul antara dirimu dengan seseorang, tetapi dirimu sepertinya enggan merusak hubungan pertemanan yang ada. \nCouple: Hubungan cintamu dengan pasangan akan semakin solid saat kalian berhasil membangun chemistry dan dapat menyeimbangkan aspek kehidupan satu sama lain."
+
+  utter_scorpio_love_predict:
+  - text: "Single: Meskipun banyak peluang cinta yang hadir dalam hidupmu, tetapi sepertinya dirimu belum bergairah untuk memulai hubungan asmara. \nCouple: Komunikasi yang baik dengan pasangan akan meningkatkan keromantisan dalam hubunganmu. Dirimu juga tak pernah canggung untuk mengungkapkan pendapat pada pasangan."
+
+  utter_sagitarius_love_predict:
+  - text: "Single: Tak masalah untuk memberi waktu pada dirimu sendiri, karena membuka hati hanya masalah waktu dan semua orang memiliki waktunya masing-masing. \nCouple: Saat dirimu benar-benar bisa terbuka satu sama lain dengan pasangan, maka hubungan seperti akan membuatmu sangat nyaman dalam menjalaninya."
+
+  utter_capricorn_love_predict:
+  - text: "Single: Menikmati apa yang ada dan menjalaninya bagai mengikuti aliran air, walaupun terkesan dangkal namun bukan berarti dirimu tidak belajar dari hal tersebut. \nCouple: Ini adalah waktu yang baik untuk menghindupkan kembali kekompakan dengan pasangan, lakukanlah kegiatan bersama untuk meningkatkan rasa cinta."
+
+  ##################################
+
+  utter_aquarius_career_predict:
+  - text: "Tidak perlu terburu-buru untuk mencapai semua target, semua orang punya waktunya masing-masing untuk memaksimalkan kinerjanya. Dirimu dituntut untu bisa berpikir lebih kreatif untuk membawa pembaharuan dalam bisnis."
+
+  utter_pisces_career_predict:
+  - text: "Ada kemungkinan kamu akan mendapat masalah dengan rekan kerja, jadi usahakan agar bertindak dengan kepala dingin. Dalam bisnis, sebaiknya kurangi hal-hal yang tidak perlu yang hanya menghabiskan modal."
+
+  utter_aries_career_predict:
+  - text: "Walaupun kamu menjalani karier yang biasa saja, tetapi semangatmu menjalani hari-hari dalam pekerjaan bisa menginspirasi semua orang. Menjaga hubungan tetap profesional dengan rekan kerja sama akan membuatmu dihargai dalam bisnis."
+
+  utter_taurus_career_predict:
+  - text: "Prospek kariermu sedang baik dan kamu sangat menikmati pekerjaan lamamu. Jika memulai bisnis baru, meski usaha yang dilakukan lebih keras dan giat tapi akan membawa hasil yang memuaskan."
+
+  utter_gemini_career_predict:
+  - text: "Kamu sangat menikmati perjalanan kariermu, walau terbilang tak mudah namun kamu selalu mengupayakan hal sekecil apa pun. Dalam bisnis, bekerja sama dengan orang-orang yang berpengaruh akan membuatmu lebih percaya diri dalam menjalani bisnis."
+
+  utter_cancer_career_predict:
+  - text: "Kamu akan dihadapkan dengan banyak peluang untuk mengembangkan karier, jadi jangan sia-siakan setiap kesempatan yang datang. Dalam bisnis, jika ingin perubahan yang baik, maka mulailah mengambil perubahan yang sedikit berisiko."
+
+  utter_leo_career_predict:
+  - text: "Jika ingin melakukan perubahan yang baik dalam hidupmu, dirimu harus bisa menyingkirkan ketakutanmu. Dalam bisnis, jangan sampai masalah-masalah kecil yang diabaikan membuatmu kehilangan hal-hal yang lebih besar."
+
+  utter_virgo_career_predict:
+  - text: "Kerja sama yang solid akan membawa pada keberhasilan dalam bidang profesional. Dalam bisnis, bukan berarti karena dirimu bisa menyelesaikan semuanya sendiri, sehingga membuatmu tidak butuh bantuan orang lain, padahal bisa saja kamu juga membutuhkannya."
+
+  utter_libra_career_predict:
+  - text: "Bangkitkan ide-ide baru untuk meningkatkan pencapaian, hargai juga setiap masukan yang diberikan orang lain yang bisa saja sangat bermanfaat. Bisa memenuhi kebutuhan pelanggan adalah kualitas yang harus dimiliki setiap orang yang menjalankan bisnis."
+
+  utter_scorpio_career_predict:
+  - text: "Banyak hal yang harus dikerjakan dan mungkin juga ada tugas tambahan dari atasan. Dalam bisnis, saatnya kamu sekarang memetik hasil dari kerja kerasmu, dan ini adalah hal yang sepadan dengan usaha yang dilakukan."
+
+  utter_sagitarius_career_predict:
+  - text: "Mungkin ada banyak sekali tanggung jawab yang harus diselesaikan, bahkan mungkin membuatmu sedikit kewalahan. Dalam bisnis, kerja keras tak akan pernah mengkhianati hasil, kamu akan mendapatkan banyak apreasiasi dari banyak pihak."
+
+  utter_capricorn_career_predict:
+  - text: "Buatlah rencana target bulanan yang ingin dicapai atau setidaknya setiap minggunya agar dirimu lebih fokus dan siap. Keberanian saja tidak cukup, dibutuhkan strategi yang ampuh agar energimu tidak terbuang dalam mengembangkan bisnis."
+
+  ##################################
+
+  utter_aquarius_finance_predict:
+  - text: "Saat karier membaik dan penghasilan yang stabil, tidak ada salahnya untuk mencoba menanam modal dengan risiko kecil."
+
+  utter_pisces_finance_predict:
+  - text: "Waktu ini cukup baik bagi keuanganmu, akan ada uang terus mengalir dan dirimu tak akan pernah kekurangan."
+
+  utter_aries_finance_predict:
+  - text: "Jangan terlena untuk menghabiskan uang hanya karena ada banyak uang dalam tabunganmu, dirimu harus bisa lebih bijak."
+
+  utter_taurus_finance_predict:
+  - text: "Banyaknya pengeluaran membuatmu sangat khawatir tentang keuanganmu saat ini, pikirkan bagaimana cara agar tetap berhemat."
+
+  utter_gemini_finance_predict:
+  - text: "Jangan sampai terlalu memikirkan masalah keuangan membuatmu stres, mulailah melakukan perencanaan secara matang."
+
+  utter_cancer_finance_predict:
+  - text: "Karena konteks hidupmu tidak untuk menjaga keuangan, itu membuatmu bisa menghabiskan uang tanpa berpikir panjang."
+
+  utter_leo_finance_predict:
+  - text: "Berhati-hatilah untuk bertindak secara impulsif, terkadang suasana hati yang terlalu senang bisa membuatmu menghabiksan uang tanpa perencanaan."
+
+  utter_virgo_finance_predict:
+  - text: "Keuanganmu cukup lancar, kamu mungkin bisa lebih longgar terhadap pengeluaranmu."
+
+  utter_libra_finance_predict:
+  - text: "Pastikan untuk tetap menjaga pengeluaran agar tidak berlebihan, sehingga selalu ada sisah yang bisa dimasukkan ke dalam tabungan."
+
+  utter_scorpio_finance_predict:
+  - text: "Keuanganganmu saat ini diramalkan tetap stabil hingga akhir bulan."
+
+  utter_sagitarius_finance_predict:
+  - text: "Penghasilan tambahan akan membantumu memenuhi kebutuhan sehingga tidak perlu menggunakan tabungan."
+
+  utter_capricorn_finance_predict:
+  - text: "Dirimu tak akan mengalami masalah keuangan, selama bisa menyesuaikan penghasilan dan gaya hidup."
+
+  ###################################
+  utter_blood_A_predict:
+  - text: "Seseorang yang memiliki golongan darah A biasanya sensitif, kooperatif, emosional, bersemangat, dan pintar. Mereka adalah seseorang yang sabar, setia, dan cinta damai. Namun, sifatnya terkadang terlalu sensitif sehingga membuatnya terlihat lemah. Mereka juga sosok yang tidak suka melanggar aturan yang ada."
+
+  utter_blood_B_predict:
+  - text: "Seseorang degan golongan darah B biasanya sangat kreatif serta cepat dalam mengambil keputusan. Biasanya mereka memiliki cara untuk menempatkan dirinya menjadi sesuatu yang difokuskannya. Namun, orang dengan golongan darah B tidak pandai melakukan sesuatu dalam waktu yang bersamaan. Jika ia mengerjakan sesuatu ia akan fokus terhadap satu hal."
+
+  utter_blood_AB_predict:
+  - text: "Orang dengan golongan darah AB biasanya dikenal misterius. Beberapa orang berpikir jika ia memiliki kepribadian ganda karena campuran dari golongan darah A dan B. Orang dengan golongan darah AB mudah berteman. Hal ini karena sifatnya yang asyik sehingga tidak bosan melakukan aktivitas bersamanya. Namun, mereka sangat sulit untuk menangani stres dalam dirinya."
+
+  utter_blood_O_predict:
+  - text: "Seseorang dengan golongan darah O biasanya pemberani, supel, dan rajin. Mereka memiliki standar yang tinggi dalam melakukan segala hal. Orang dengan golongan darah O juga memiliki jiwa kepemimpinan yang baik. Mereka cuek dan tidak peduli dengan hal-hal yang mengganggunya."
 
 session_config:
   session_expiration_time: 60

@@ -41,12 +41,20 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
+  ########################
+
 - story: asking aquarius predict
   steps:
   - intent: greet
   - action: utter_greet
   - intent: ask_predict_aquarius
   - action: utter_aquarius_predict
+  - intent: ask_predict_love_aquarius
+  - action: utter_aquarius_love_predict
+  - intent: ask_predict_career_aquarius
+  - action: utter_aquarius_career_predict
+  - intent: ask_predict_finance_aquarius
+  - action: utter_aquarius_finance_predict
 
 - story: asking pisces predict
   steps:
@@ -54,6 +62,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_pisces
   - action: utter_pisces_predict
+  - intent: ask_predict_love_pisces
+  - action: utter_pisces_love_predict
+  - intent: ask_predict_career_pisces
+  - action: utter_pisces_career_predict
+  - intent: ask_predict_finance_pisces
+  - action: utter_pisces_finance_predict
 
 - story: asking aries predict
   steps:
@@ -61,6 +75,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_aries
   - action: utter_aries_predict
+  - intent: ask_predict_love_aries
+  - action: utter_aries_love_predict
+  - intent: ask_predict_career_aries
+  - action: utter_aries_career_predict
+  - intent: ask_predict_finance_aries
+  - action: utter_aries_finance_predict
 
 - story: asking taurus predict
   steps:
@@ -68,6 +88,13 @@ stories:
   - action: utter_greet
   - intent: ask_predict_taurus
   - action: utter_taurus_predict
+  - intent: ask_predict_love_taurus
+  - action: utter_taurus_love_predict
+  - intent: ask_predict_career_taurus
+  - action: utter_taurus_career_predict
+  - intent: ask_predict_finance_taurus
+  - action: utter_taurus_finance_predict
+
 
 - story: asking gemini predict
   steps:
@@ -75,6 +102,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_gemini
   - action: utter_gemini_predict
+  - intent: ask_predict_love_gemini
+  - action: utter_gemini_love_predict
+  - intent: ask_predict_career_gemini
+  - action: utter_gemini_career_predict
+  - intent: ask_predict_finance_gemini
+  - action: utter_gemini_finance_predict
 
 - story: asking cancer predict
   steps:
@@ -82,6 +115,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_cancer
   - action: utter_cancer_predict
+  - intent: ask_predict_love_cancer
+  - action: utter_cancer_love_predict
+  - intent: ask_predict_career_cancer
+  - action: utter_cancer_career_predict
+  - intent: ask_predict_finance_cancer
+  - action: utter_cancer_finance_predict
 
 - story: asking leo predict
   steps:
@@ -89,6 +128,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_leo
   - action: utter_leo_predict
+  - intent: ask_predict_love_leo
+  - action: utter_leo_love_predict
+  - intent: ask_predict_career_leo
+  - action: utter_leo_career_predict
+  - intent: ask_predict_finance_leo
+  - action: utter_leo_finance_predict
 
 - story: asking virgo predict
   steps:
@@ -96,6 +141,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_virgo
   - action: utter_virgo_predict
+  - intent: ask_predict_love_virgo
+  - action: utter_virgo_love_predict
+  - intent: ask_predict_career_virgo
+  - action: utter_virgo_career_predict
+  - intent: ask_predict_finance_virgo
+  - action: utter_virgo_finance_predict
 
 - story: asking libra predict
   steps:
@@ -103,6 +154,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_libra
   - action: utter_libra_predict
+  - intent: ask_predict_love_libra
+  - action: utter_libra_love_predict
+  - intent: ask_predict_career_libra
+  - action: utter_libra_career_predict
+  - intent: ask_predict_finance_libra
+  - action: utter_libra_finance_predict
 
 - story: asking scorpio predict
   steps:
@@ -110,6 +167,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_scorpio
   - action: utter_scorpio_predict
+  - intent: ask_predict_love_scorpio
+  - action: utter_scorpio_love_predict
+  - intent: ask_predict_career_scorpio
+  - action: utter_scorpio_career_predict
+  - intent: ask_predict_finance_scorpio
+  - action: utter_scorpio_finance_predict
 
 - story: asking sagitarius predict
   steps:
@@ -117,6 +180,12 @@ stories:
   - action: utter_greet
   - intent: ask_predict_sagitarius
   - action: utter_sagitarius_predict
+  - intent: ask_predict_love_sagitarius
+  - action: utter_sagitarius_love_predict
+  - intent: ask_predict_career_sagitarius
+  - action: utter_sagitarius_career_predict
+  - intent: ask_predict_finance_sagitarius
+  - action: utter_sagitarius_finance_predict
 
 - story: asking capricorn predict
   steps:
@@ -124,3 +193,20 @@ stories:
   - action: utter_greet
   - intent: ask_predict_capricorn
   - action: utter_capricorn_predict
+  - intent: ask_predict_love_capricorn
+  - action: utter_capricorn_love_predict
+  - intent: ask_predict_career_capricorn
+  - action: utter_capricorn_career_predict
+  - intent: ask_predict_finance_capricorn
+  - action: utter_capricorn_finance_predict
+
+- story: blood classification personality
+  steps:
+  - intent: ask_blood_A_personality
+  - action: utter_blood_A_predict
+  - intent: ask_blood_B_personality
+  - action: utter_blood_B_predict
+  - intent: ask_blood_AB_personality
+  - action: utter_blood_AB_predict
+  - intent: ask_blood_O_personality
+  - action: utter_blood_O_predict

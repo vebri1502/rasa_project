@@ -176,3 +176,374 @@ nlu:
     - ramalan zodiak capricorn dong
     - bulan ini zodiak capricorn ada apa?
     - capricorn bulan ini
+
+- intent: nlu_test
+  examples: |
+    - coba NLU dong
+    - coba NLU
+    - NLU test
+    - Tes NLU
+    - Test NLU
+
+- intent: ask_predict_love_aquarius
+  examples: |
+    - percintaan aquarius dong
+    - bagaimana prediksi percintaan aquarius
+    - percintaan aquarius
+    - prediksi cinta aquarius
+    - ramalan cinta aquarius
+    - cinta aquarius
+
+- intent: ask_predict_love_pisces
+  examples: |
+    - percintaan pisces dong
+    - bagaimana prediksi percintaan pisces
+    - percintaan pisces
+    - prediksi cinta pisces
+    - ramalan cinta pisces
+    - cinta pisces
+
+- intent: ask_predict_love_aries
+  examples: |
+    - percintaan aries dong
+    - bagaimana prediksi percintaan aries
+    - percintaan aries
+    - prediksi cinta aries
+    - ramalan cinta aries
+    - cinta aries
+
+- intent: ask_predict_love_taurus
+  examples: |
+    - percintaan taurus dong
+    - bagaimana prediksi percintaan taurus
+    - percintaan taurus
+    - prediksi cinta taurus
+    - ramalan cinta taurus
+    - cinta taurus
+
+- intent: ask_predict_love_gemini
+  examples: |
+    - percintaan gemini dong
+    - bagaimana prediksi percintaan gemini
+    - percintaan gemini
+    - prediksi cinta gemini
+    - ramalan cinta gemini
+    - cinta gemini
+
+- intent: ask_predict_love_cancer
+  examples: |
+    - percintaan cancer dong
+    - bagaimana prediksi percintaan cancer
+    - percintaan cancer
+    - prediksi cinta cancer
+    - ramalan cinta cancer
+    - cinta cancer
+
+- intent: ask_predict_love_leo
+  examples: |
+    - percintaan leo dong
+    - bagaimana prediksi percintaan leo
+    - percintaan leo
+    - prediksi cinta leo
+    - ramalan cinta leo
+    - cinta leo
+
+- intent: ask_predict_love_virgo
+  examples: |
+    - percintaan virgo dong
+    - bagaimana prediksi percintaan virgo
+    - percintaan virgo
+    - prediksi cinta virgo
+    - ramalan cinta virgo
+    - cinta virgo
+
+- intent: ask_predict_love_libra
+  examples: |
+    - percintaan libra dong
+    - bagaimana prediksi percintaan libra
+    - percintaan libra
+    - prediksi cinta libra
+    - ramalan cinta libra
+    - cinta libra
+
+- intent: ask_predict_love_scorpio
+  examples: |
+    - percintaan scorpio dong
+    - bagaimana prediksi percintaan scorpio
+    - percintaan scorpio
+    - prediksi cinta scorpio
+    - ramalan cinta scorpio
+    - cinta scorpio
+
+- intent: ask_predict_love_sagitarius
+  examples: |
+    - percintaan sagitarius dong
+    - bagaimana prediksi percintaan sagitarius
+    - percintaan sagitarius
+    - prediksi cinta sagitarius
+    - ramalan cinta sagitarius
+    - cinta sagitarius
+
+- intent: ask_predict_love_capricorn
+  examples: |
+    - percintaan capricorn dong
+    - bagaimana prediksi percintaan capricorn
+    - percintaan capricorn
+    - prediksi cinta capricorn
+    - ramalan cinta capricorn
+    - cinta capricorn
+
+#########################
+
+- intent: ask_predict_career_aquarius
+  examples: |
+    - karir aquarius dong
+    - bagaimana prediksi karir aquarius
+    - karir aquarius
+    - prediksi karir aquarius
+    - ramalan karir aquarius
+    - karir aquarius
+
+- intent: ask_predict_career_pisces
+  examples: |
+    - karir pisces dong
+    - bagaimana prediksi karir pisces
+    - karir pisces
+    - prediksi karir pisces
+    - ramalan karir pisces
+    - karir pisces
+
+- intent: ask_predict_career_aries
+  examples: |
+    - karir aries dong
+    - bagaimana prediksi karir aries
+    - karir aries
+    - prediksi karir aries
+    - ramalan karir aries
+    - karir aries
+
+- intent: ask_predict_career_taurus
+  examples: |
+    - karir taurus dong
+    - bagaimana prediksi karir taurus
+    - karir taurus
+    - prediksi karir taurus
+    - ramalan karir taurus
+    - karir taurus
+
+- intent: ask_predict_career_gemini
+  examples: |
+    - karir gemini dong
+    - bagaimana prediksi karir gemini
+    - karir gemini
+    - prediksi karir gemini
+    - ramalan karir gemini
+    - karir gemini
+
+- intent: ask_predict_career_cancer
+  examples: |
+    - karir cancer dong
+    - bagaimana prediksi karir cancer
+    - karir cancer
+    - prediksi karir cancer
+    - ramalan karir cancer
+    - karir cancer
+
+- intent: ask_predict_career_leo
+  examples: |
+    - karir leo dong
+    - bagaimana prediksi karir leo
+    - karir leo
+    - prediksi karir leo
+    - ramalan karir leo
+    - karir leo
+
+- intent: ask_predict_career_virgo
+  examples: |
+    - karir virgo dong
+    - bagaimana prediksi karir virgo
+    - karir virgo
+    - prediksi karir virgo
+    - ramalan karir virgo
+    - karir virgo
+
+- intent: ask_predict_career_libra
+  examples: |
+    - karir libra dong
+    - bagaimana prediksi karir libra
+    - karir libra
+    - prediksi karir libra
+    - ramalan karir libra
+    - karir libra
+
+- intent: ask_predict_career_scorpio
+  examples: |
+    - karir scorpio dong
+    - bagaimana prediksi karir scorpio
+    - karir scorpio
+    - prediksi karir scorpio
+    - ramalan karir scorpio
+    - karir scorpio
+
+- intent: ask_predict_career_sagitarius
+  examples: |
+    - karir sagitarius dong
+    - bagaimana prediksi karir sagitarius
+    - karir sagitarius
+    - prediksi karir sagitarius
+    - ramalan karir sagitarius
+    - karir sagitarius
+
+- intent: ask_predict_career_capricorn
+  examples: |
+    - karir capricorn dong
+    - bagaimana prediksi karir capricorn
+    - karir capricorn
+    - prediksi karir capricorn
+    - ramalan karir capricorn
+    - karir capricorn
+
+#########################
+
+- intent: ask_predict_finance_aquarius
+  examples: |
+    - keuangan aquarius dong
+    - bagaimana prediksi keuangan aquarius
+    - keuangan aquarius
+    - prediksi keuangan aquarius
+    - ramalan keuangan aquarius
+    - keuangan aquarius
+
+- intent: ask_predict_finance_pisces
+  examples: |
+    - keuangan pisces dong
+    - bagaimana prediksi keuangan pisces
+    - keuangan pisces
+    - prediksi keuangan pisces
+    - ramalan keuangan pisces
+    - keuangan pisces
+
+- intent: ask_predict_finance_aries
+  examples: |
+    - keuangan aries dong
+    - bagaimana prediksi keuangan aries
+    - keuangan aries
+    - prediksi keuangan aries
+    - ramalan keuangan aries
+    - keuangan aries
+
+- intent: ask_predict_finance_taurus
+  examples: |
+    - keuangan taurus dong
+    - bagaimana prediksi keuangan taurus
+    - keuangan taurus
+    - prediksi keuangan taurus
+    - ramalan keuangan taurus
+    - keuangan taurus
+
+- intent: ask_predict_finance_gemini
+  examples: |
+    - keuangan gemini dong
+    - bagaimana prediksi keuangan gemini
+    - keuangan gemini
+    - prediksi keuangan gemini
+    - ramalan keuangan gemini
+    - keuangan gemini
+
+- intent: ask_predict_finance_cancer
+  examples: |
+    - keuangan cancer dong
+    - bagaimana prediksi keuangan cancer
+    - keuangan cancer
+    - prediksi keuangan cancer
+    - ramalan keuangan cancer
+    - keuangan cancer
+
+- intent: ask_predict_finance_leo
+  examples: |
+    - keuangan leo dong
+    - bagaimana prediksi keuangan leo
+    - keuangan leo
+    - prediksi keuangan leo
+    - ramalan keuangan leo
+    - keuangan leo
+
+- intent: ask_predict_finance_virgo
+  examples: |
+    - keuangan virgo dong
+    - bagaimana prediksikeuangan virgo
+    - keuangan virgo
+    - prediksi keuangan virgo
+    - ramalan keuangan virgo
+    - keuangan virgo
+
+- intent: ask_predict_finance_libra
+  examples: |
+    - keuangan libra dong
+    - bagaimana prediksikeuangan libra
+    - keuangan libra
+    - prediksi keuangan libra
+    - ramalan keuangan libra
+    - keuangan libra
+
+- intent: ask_predict_finance_scorpio
+  examples: |
+    - keuangan scorpio dong
+    - bagaimana prediksikeuangan scorpio
+    - keuangan scorpio
+    - prediksi keuangan scorpio
+    - ramalank euangan scorpio
+    - keuangan scorpio
+
+- intent: ask_predict_finance_sagitarius
+  examples: |
+    - keuangan sagitarius dong
+    - bagaimana prediksikeuangan sagitarius
+    - keuangan sagitarius
+    - prediksi keuangan sagitarius
+    - ramalan keuangan sagitarius
+    - keuangan sagitarius
+
+- intent: ask_predict_finance_capricorn
+  examples: |
+    - keuangan capricorn dong
+    - bagaimana prediksikeuangan capricorn
+    - keuangan capricorn
+    - prediksi keuangan capricorn
+    - ramalank euangan capricorn
+    - keuangan capricorn
+
+###########################
+
+- intent: ask_blood_A_personality
+  examples: |
+    - kepribadian golongan darah A dong
+    - tebak kepribadian darah A
+    - pengen tau kepribadian darah A
+    - gmana pribadi golongan darah A
+    - kasih tau pribadi golongan darah A
+
+- intent: ask_blood_B_personality
+  examples: |
+    - kepribadian golongan darah B dong
+    - tebak kepribadian darah B
+    - pengen tau kepribadian darah B
+    - gmana pribadi golongan darah B
+    - kasih tau pribadi golongan darah B
+
+- intent: ask_blood_AB_personality
+  examples: |
+    - kepribadian golongan darah AB dong
+    - tebak kepribadian darah AB
+    - pengen tau kepribadian darah AB
+    - gmana pribadi golongan darah AB
+    - kasih tau pribadi golongan darah AB
+
+- intent: ask_blood_O_personality
+  examples: |
+    - kepribadian golongan darah O dong
+    - tebak kepribadian darah O
+    - pengen tau kepribadian darah O
+    - gmana pribadi golongan darah O
+    - kasih tau pribadi golongan darah O
+
