@@ -547,3 +547,27 @@ nlu:
     - gmana pribadi golongan darah O
     - kasih tau pribadi golongan darah O
 
+  ###############################
+
+- intent: ask_zodiac
+  examples: |
+    - Pengen tanya zodiak dong
+    - penasaran dengan zodiak
+    - ramalan zodiak saya apa?
+    - ramalan zodiah hari ini apa?
+    - Gimana ramalan zodiac saya hari ini?
+    - kasih tau saya ramalan zodiak saya
+
+- intent: ask_goldar
+  examples: |
+    - tipe kepribadian berdasarkan golongan darah
+    - pengen tau kepribadian goldar
+    - gol darah sifat
+    - personality golongan darah
+
+- intent: ask_shio
+  examples: |
+    - Ramalan shio
+    - pengen tau shio saya seperti apa
+    - kasih tau ramalan shio saya dong
+    - hari ini ramalan shio saya

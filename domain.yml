@@ -13,6 +13,11 @@ intents:
   - nlu_test
 
   ##############################
+  - ask_zodiac
+  - ask_shio
+  - ask_goldar
+
+  ##############################
   - ask_predict_aquarius
   - ask_predict_pisces
   - ask_predict_aries
@@ -276,6 +281,17 @@ responses:
 
   utter_blood_O_predict:
   - text: "Seseorang dengan golongan darah O biasanya pemberani, supel, dan rajin. Mereka memiliki standar yang tinggi dalam melakukan segala hal. Orang dengan golongan darah O juga memiliki jiwa kepemimpinan yang baik. Mereka cuek dan tidak peduli dengan hal-hal yang mengganggunya."
+
+  ####################################
+  utter_ask_zodiac_answer:
+  - text: "Kamu pengen tau apa nih tentang zodiac kamu?"
+
+  utter_ask_shio_answer:
+  - text: "Penasaran ya dengan ramalan shio hari ini? Tenang, Claudia bakal bantu kok."
+
+  utter_ask_goldar_answer:
+  - text: "Claudia punya jawaban nih tentang kepribadian golongan darah."
+
 
 session_config:
   session_expiration_time: 60

@@ -210,3 +210,12 @@ stories:
   - action: utter_blood_AB_predict
   - intent: ask_blood_O_personality
   - action: utter_blood_O_predict
+
+- story: ask initial prediction
+  steps:
+  - intent: ask_zodiac
+  - action: utter_ask_zodiac_answer
+  - intent: ask_shio
+  - action: utter_ask_shio_answer
+  - intent: ask_goldar
+  - action: utter_ask_goldar_answer
