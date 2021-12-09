@@ -571,3 +571,115 @@ nlu:
     - pengen tau shio saya seperti apa
     - kasih tau ramalan shio saya dong
     - hari ini ramalan shio saya
+
+##############################
+
+- intent: ask_shio_tikus_prediction
+  examples: |
+    - Ramalan shio tikus hari ini dong
+    - bagaimana peruntungan shio tikus
+    - penasaran dengan nasib shio tikus hari ini
+    - shio tikus hari ini
+    - shio tikus ramalan
+    - ramalannya shio tikus bagaimana?
+
+- intent: ask_shio_kerbau_prediction
+  examples: |
+    - Ramalan shio kerbau hari ini dong
+    - bagaimana peruntungan shio kerbau
+    - penasaran dengan nasib shio kerbau hari ini
+    - shio kerbau hari ini
+    - shio kerbau ramalan
+    - ramalannya shio kerbau bagaimana?
+
+- intent: ask_shio_macan_prediction
+  examples: |
+    - Ramalan shio macan hari ini dong
+    - bagaimana peruntungan shio macan
+    - penasaran dengan nasib shio macan hari ini
+    - shio macan hari ini
+    - shio macan ramalan
+    - ramalannya shio macan bagaimana?
+
+- intent: ask_shio_kelinci_prediction
+  examples: |
+    - Ramalan shio kelinci hari ini dong
+    - bagaimana peruntungan shio kelinci
+    - penasaran dengan nasib shio kelinci hari ini
+    - shio kelinci hari ini
+    - shio kelinci ramalan
+    - ramalannya shio kelinci bagaimana?
+
+- intent: ask_shio_naga_prediction
+  examples: |
+    - Ramalan shio naga hari ini dong
+    - bagaimana peruntungan shio naga
+    - penasaran dengan nasib shio naga hari ini
+    - shio naga hari ini
+    - shio naga ramalan
+    - ramalannya shio naga bagaimana?
+
+- intent: ask_shio_ular_prediction
+  examples: |
+    - Ramalan shio ular hari ini dong
+    - bagaimana peruntungan shio ular
+    - penasaran dengan nasib shio ular hari ini
+    - shio ular hari ini
+    - shio ular ramalan
+    - ramalannya shio ular bagaimana?
+
+- intent: ask_shio_kuda_prediction
+  examples: |
+    - Ramalan shio kuda hari ini dong
+    - bagaimana peruntungan shio kuda
+    - penasaran dengan nasib shio kuda hari ini
+    - shio kuda hari ini
+    - shio kuda ramalan
+    - ramalannya shio kuda bagaimana?
+
+- intent: ask_shio_kambing_prediction
+  examples: |
+    - Ramalan shio_kambing hari ini dong
+    - bagaimana peruntungan shio_kambing
+    - penasaran dengan nasib shio_kambing hari ini
+    - shio_kambing hari ini
+    - shio_kambing ramalan
+    - ramalannya shio_kambing bagaimana?
+
+- intent: ask_shio_monyet_prediction
+  examples: |
+    - Ramalan shio monyet hari ini dong
+    - bagaimana peruntungan shio monyet
+    - penasaran dengan nasib shio monyet hari ini
+    - shio monyet hari ini
+    - shio monyet ramalan
+    - ramalannya shio monyet bagaimana?
+
+- intent: ask_shio_ayam_prediction
+  examples: |
+    - Ramalan shio ayam hari ini dong
+    - bagaimana peruntungan shio ayam
+    - penasaran dengan nasib shio ayam hari ini
+    - shio ayam hari ini
+    - shio ayam ramalan
+    - ramalannya shio ayam bagaimana?
+
+- intent: ask_shio_anjing_prediction
+  examples: |
+    - Ramalan shio anjing hari ini dong
+    - bagaimana peruntungan shio anjing
+    - penasaran dengan nasib shio anjing hari ini
+    - shio anjing hari ini
+    - shio anjing ramalan
+    - ramalannya anjing kuda bagaimana?
+
+- intent: ask_shio_babi_prediction
+  examples: |
+    - Ramalan shio babi hari ini dong
+    - bagaimana peruntungan shio babi
+    - penasaran dengan nasib shio babi hari ini
+    - shio babi hari ini
+    - shio babi ramalan
+    - ramalannya shio babi bagaimana?
+
+

@@ -82,6 +82,21 @@ intents:
   - ask_blood_AB_personality
   - ask_blood_O_personality
 
+##############################
+  - ask_shio_tikus_prediction
+  - ask_shio_kerbau_prediction
+  - ask_shio_macan_prediction
+  - ask_shio_kelinci_prediction
+  - ask_shio_naga_prediction
+  - ask_shio_ular_prediction
+  - ask_shio_kuda_prediction
+  - ask_shio_kambing_prediction
+  - ask_shio_monyet_prediction
+  - ask_shio_ayam_prediction
+  - ask_shio_anjing_prediction
+  - ask_shio_babi_prediction
+
+##############################
 
 responses:
   utter_greet:
@@ -292,6 +307,43 @@ responses:
   utter_ask_goldar_answer:
   - text: "Claudia punya jawaban nih tentang kepribadian golongan darah."
 
+  #####################################
+
+  utter_shio_tikus_answer:
+  - text: "Berbicara dari hati ke hati memang tidak mudah, tetapi Anda didorong untuk tidak lagi mendorong perasaan Anda, selain menghadapinya dan mengungkapkannya. Dengan dorongan energi yang ada hari ini, Anda juga perlu berhati-hati saat berbicara sesuatu. Ingat selalu nada bicara Anda, jangan sampai menyakitkan mereka."
+
+  utter_shio_kerbau_answer:
+  - text: "Ini bukan saat yang tepat untuk terlalu kaku dan fokus pada tugas-tugas praktis. Sebab, energi kreatif Anda dikenal sangat kuat hari ini, seperti kekuatan imajinasi Anda, di mana dorongan ini bisa dilakukan lewat karya kreatif. Percayalah, imajinasi yang terwujud hari ini, akan membawa kebaikan dalam hidup Anda."
+
+  utter_shio_macan_answer:
+  - text: "Hari ini segalanya cukup menarik buat Anda, di mana ada sisi kreatif yang muncul dari lamunan Anda. Walau Anda merasa tidak terdorong hari ini, sebaliknya Anda mungkin ingin bermalas-malasan hari ini. Tentu tidak masalah untuk malas-malasan, tetapi pastikan Anda juga tetap terus produktif dalam hidup Anda. Jangan sampai rasa malas memperburuk hidup Anda."
+
+  utter_shio_kelinci_answer:
+  - text: "Anda mungkin hanya perlu tidur siang, sebab penting untuk tidur sejenak di waktu luang Anda. Tentu sangat dianjurkan demi kesehatan Anda, di mana tidur dapat menjaga tubuh fisik Anda secara keseluruhan. Namun, pastikan juga jumlah vitamin dan nutrisi mencukupi kebutuhan harian Anda. Jangan sampai Anda abaikan dua hal ini."
+
+  utter_shio_naga_answer:
+  - text: "Ini adalah waktu yang tepat untuk menggali kedalaman imajinasi Anda. Selain imajinasi, ada beberapa energi penyembuhan yang membuka jalan Anda untuk perbaiki hubungan Anda. Tentu salah satu cara yang bisa dilakukan adalah, dengan percakapan dari hati ke hati. Saat melakukan percakapan, pikirkan juga apa yang mau Anda katakan kepada mereka. Jangan ragu untuk mengungkapkan."
+
+  utter_shio_ular_answer:
+  - text: "Ini waktu yang tepat untuk melepaskan hal-hal yang telah menyakiti Anda. Dari sakit hati ini, jangan sampai Anda mengalami kesedihan yang berlebihan. Anda harus bergerak maju dan berilah pengampunan di hati Anda. Tetaplah fokus pada hal-hal positif yang bisa membantu Anda berkembang. Dan biarlah masa lalu tetaplah berlalu."
+
+  utter_shio_kuda_answer:
+  - text: "Ini adalah waktu yang tepat untuk komunikasi dan menyelesaikan masalah lewat kekuatan kata-kata. Dari kekuatan kata-kata ini, Anda didorong untuk fokus pada percakapan dengan orang yang Anda sayangi. Meski ada masalah yang pernah terjadi, ini saatnya untuk memperbaiki hubungan Anda."
+
+  utter_shio_kambing_answer:
+  - text: "Penting untuk memahami emosi Anda dan memahami hal-hal apa yang mengganggu Anda hari ini. Ketika sedang belajar memahami emosi dan diri sendiri pada tingkat yang lebih dalam, Anda dikatakan mampu menghadapi setiap tantangan yang sulit. Tapi, pastikan juga Anda punya waktu luang untuk bermeditasi bersama alam. Sebab, ini bisa membantu menyeimbangkan kesehatan batin Anda."
+
+  utter_shio_monyet_answer:
+  - text: "Penting untuk mendengarkan intuisi Anda hari ini. Tentu ada beberapa hasil positif yang sedang menunggu Anda. Tapi yang perlu diselesaikan hari ini adalah masalah-masalah Anda. Walaupun saat ini Anda sedang menyelesaikan masalah, jangan sampai mengabaikan kebutuhan fisik Anda. Pastikan bahwa Anda sudah mengonsumsi nutrisi yang tepat serta olahraga yang cukup hari ini."
+
+  utter_shio_ayam_answer:
+  - text: "Hari ini Anda perlu fokus terhadap diri sendiri, serta melihat kebutuhan dan aspek dalam hidup Anda. Mungkin sangat baik jika Anda juga menjangkau perasaan orang lain, di mana Anda perlu tingkatkan komunikasi dengan mereka agar hubungan bisa lebih harmonis. Selain itu, beberapa perubahan nyata bisa Anda lakukan hari ini. Tapi, di atas segalanya, perlu ikuti kata hati dan dengarkan kekuatan intuisi Anda."
+
+  utter_shio_anjing_answer:
+  - text: "Melibatkan diri lewat latihan kesadaran sangat dianjurkan hari ini. Sebab, latihan kesadaran alias mindfulness, dapat membantu Anda meningkatkan kesehatan mental secara positif. Dengan menghabiskan waktu untuk aktivitas tersebut, tentu ini dapat meningkatkan keseimbangan batin dan emosional Anda."
+
+  utter_shio_babi_answer:
+  - text: "Hari ini Anda perlu berkonsentrasi pada tujuan serta aspirasi kreatif Anda. Di samping itu, perlu juga untuk memiliki keseimbangan batin dalam diri Anda, salah satunya pikiran dan juga tubuh. Dengan konsentrasi dan keseimbangan batin, ini akan mendorong Anda untuk fokus pada kesejahteraan Anda. Untuk meningkatkannya agar lebih signifikan, Anda bisa lakukan meditasi atau yoga yang bisa Anda lakukan hari ini."
 
 session_config:
   session_expiration_time: 60

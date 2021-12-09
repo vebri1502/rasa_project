@@ -219,3 +219,32 @@ stories:
   - action: utter_ask_shio_answer
   - intent: ask_goldar
   - action: utter_ask_goldar_answer
+
+#############################
+
+- story: ask shio prediction
+  steps:
+  - intent: ask_shio_tikus_prediction
+  - action: utter_shio_tikus_answer
+  - intent: ask_shio_kerbau_prediction
+  - action: utter_shio_kerbau_answer
+  - intent: ask_shio_macan_prediction
+  - action: utter_shio_macan_answer
+  - intent: ask_shio_kelinci_prediction
+  - action: utter_shio_kelinci_answer
+  - intent: ask_shio_naga_prediction
+  - action: utter_shio_naga_answer
+  - intent: ask_shio_ular_prediction
+  - action: utter_shio_ular_answer
+  - intent: ask_shio_kuda_prediction
+  - action: utter_shio_kuda_answer
+  - intent: ask_shio_kambing_prediction
+  - action: utter_shio_kambing_answer
+  - intent: ask_shio_monyet_prediction
+  - action: utter_shio_monyet_answer
+  - intent: ask_shio_ayam_prediction
+  - action: utter_shio_ayam_answer
+  - intent: ask_shio_anjing_prediction
+  - action: utter_shio_anjing_answer
+  - intent: ask_shio_babi_prediction
+  - action: utter_shio_babi_answer
