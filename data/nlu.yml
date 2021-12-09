@@ -557,6 +557,10 @@ nlu:
     - ramalan zodiah hari ini apa?
     - Gimana ramalan zodiac saya hari ini?
     - kasih tau saya ramalan zodiak saya
+    - ramalan horoscope dong
+    - horoscope aku lah
+    - pengen tau prediksi horoskop saya
+    - horoscop saya dong
 
 - intent: ask_goldar
   examples: |
